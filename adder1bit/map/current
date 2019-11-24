@@ -1,0 +1,15 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "adder1bit"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/013829283/224hw31/EE224_Project/adder1bit/"
+ )
+( model
+( "EE224_Project/adder1bit/schematic" "adder1bit" )
+ )
+( "adder1bit" "ihnl/cds0/map" )
+ )

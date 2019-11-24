@@ -1,0 +1,7 @@
+cell: "adder1bit"
+selected net: "4"
+rejected nets: "11" 
+contact layer:  "ptap"
+lower layer: "psubstrate"
+upper layer:  "pdiff_conn"
+command:  "sconnect pdiff_conn psubstrate -by ptap"

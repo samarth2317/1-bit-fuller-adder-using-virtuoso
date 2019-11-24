@@ -1,0 +1,82 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : adder1bit.rep
+ERC Summary File         : adder1bit.sum
+LVS Comparison Report    : adder1bit.rep.cls
+LVS Softchk Report       : adder1bit.softchk
+Layout Name              : /home/013829283/224hw31/EE224_Project/adder1bit/adder1bit.gds ("adder1bit")
+User Name                : 01382928
+Creation Time            : Sun Nov 17 14:10:46 2019
+Current directory        : /home/013829283/224hw31/EE224_Project/adder1bit
+PVS Version              : 16.15-s010 Fri Jun 28 22:24:07 PDT 2019
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+
+    LVS_SOFTCHK psubstrate -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK nwell_conn -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK Nburied -TYPE CONTACT   Total Result        0 (       0)
+
+Warnings and errors of connectivity for cell "adder1bit"
+--------------------------------------------------------
+
+[WARN] Unattached port label:
+    Label "A" on layer 1064(metal1_conn_text) at (0.975, 8.320)
+
+[WARN] Unattached port label:
+    Label "Cin" on layer 1064(metal1_conn_text) at (1.005, 8.770)
+
+[WARN] Unattached port label:
+    Label "B" on layer 1064(metal1_conn_text) at (1.765, 8.365)
+
+[WARN] Unattached port label:
+    Label "PM2" on layer 1064(metal1_conn_text) at (1.770, 6.475)
+
+[WARN] Unattached port label:
+    Label "PM0" on layer 1064(metal1_conn_text) at (1.815, 7.975)
+
+[WARN] Unattached port label:
+    Label "PM3" on layer 1064(metal1_conn_text) at (2.230, 4.685)
+
+[WARN] Unattached port label:
+    Label "PM4" on layer 1064(metal1_conn_text) at (2.465, 5.935)
+
+[WARN] Unattached port label:
+    Label "vdc" on layer 1064(metal1_conn_text) at (2.650, 8.080)
+
+[WARN] Unattached port label:
+    Label "PM1" on layer 1064(metal1_conn_text) at (3.025, 7.560)
+
+[WARN] Unattached port label:
+    Label "gnd" on layer 1064(metal1_conn_text) at (3.895, 1.090)
+
+[WARN] Unattached port label:
+    Label "SUM" on layer 1064(metal1_conn_text) at (8.310, 3.740)
+
+
+Clean cell list (added by extraction report parser )
+ for cell "M1_PO_CDNS_1"
+ for cell "M1_PO_CDNS_2"
+ for cell "M1_PO_CDNS_3"
+ for cell "M1_PO_CDNS_4"
+ for cell "M1_PO_CDNS_5"
+ for cell "nmos1v_CDNS_10"
+ for cell "nmos1v_CDNS_11"
+ for cell "nmos1v_CDNS_13"
+ for cell "nmos1v_CDNS_17"
+ for cell "nmos1v_CDNS_8"
+ for cell "nmos1v_CDNS_9"
+ for cell "pmos1v_CDNS_12"
+ for cell "pmos1v_CDNS_14"
+ for cell "pmos1v_CDNS_15"
+ for cell "pmos1v_CDNS_16"

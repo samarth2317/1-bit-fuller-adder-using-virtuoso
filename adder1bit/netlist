@@ -1,0 +1,62 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  EE224_Project
+* Top Cell Name: adder1bit
+* View Name:     schematic
+* Netlisted on:  Nov 17 14:10:42 2019
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL gnd!
+
+*.PIN gnd!
+
+************************************************************************
+* Library Name: EE224_Project
+* Cell Name:    adder1bit
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT adder1bit SUM cout
+*.PININFO SUM:O cout:O
+MPM13 SUM net45 vdc vdc g45p1svt m=1 l=45n w=240n
+MPM12 cout net30 vdc vdc g45p1svt m=1 l=45n w=240n
+MPM11 net45 net30 net66 net66 g45p1svt m=1 l=45n w=480n
+MPM10 net45 Cin net50 net50 g45p1svt m=1 l=45n w=1.44u
+MPM9 net50 B net51 net51 g45p1svt m=1 l=45n w=1.44u
+MPM8 net51 A net66 net66 g45p1svt m=1 l=45n w=1.44u
+MPM7 net66 B vdc vdc g45p1svt m=1 l=45n w=480n
+MPM6 net66 A vdc vdc g45p1svt m=1 l=45n w=480n
+MPM5 net66 Cin vdc vdc g45p1svt m=1 l=45n w=480n
+MPM4 net30 Cin net31 net31 g45p1svt m=1 l=45n w=480n
+MPM3 net30 A net26 net26 g45p1svt m=1 l=45n w=960n
+MPM2 net26 B net31 net31 g45p1svt m=1 l=45n w=960n
+MPM1 net31 B vdc vdc g45p1svt m=1 l=45n w=480n
+MPM0 net31 A vdc vdc g45p1svt m=1 l=45n w=480n
+MNM13 SUM net45 gnd! gnd! g45n1svt m=1 l=45n w=120n
+MNM12 net56 B gnd! gnd! g45n1svt m=1 l=45n w=360n
+MNM11 net57 A net56 net56 g45n1svt m=1 l=45n w=360n
+MNM10 net45 Cin net57 net57 g45n1svt m=1 l=45n w=360n
+MNM9 net67 Cin gnd! gnd! g45n1svt m=1 l=45n w=240n
+MNM8 net67 B gnd! gnd! g45n1svt m=1 l=45n w=240n
+MNM7 net67 A gnd! gnd! g45n1svt m=1 l=45n w=240n
+MNM6 net45 net30 net67 net67 g45n1svt m=1 l=45n w=240n
+MNM5 cout net30 gnd! gnd! g45n1svt m=1 l=45n w=120n
+MNM4 net24 B gnd! gnd! g45n1svt m=1 l=45n w=240n
+MNM3 net24 A gnd! gnd! g45n1svt m=1 l=45n w=240n
+MNM2 net34 B gnd! gnd! g45n1svt m=1 l=45n w=240n
+MNM1 net30 A net34 net34 g45n1svt m=1 l=45n w=240n
+MNM0 net30 Cin net24 net24 g45n1svt m=1 l=45n w=240n
+.ENDS
+

@@ -1,0 +1,81 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.7-64b 07/14/2017 22:29 (sjfhw304) $
+          : sub-version  IC6.1.7-64b.500.13 
+Started at: 17-Nov-2019  14:10:41
+User Name : 013829283
+Host Name : coe-ee-cad20.sjsuad.sjsu.edu
+Directory : /home/013829283/224hw31
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/013829283/224hw31/EE224_Project/adder1bit/adder1bit.gds' already exists. It will be overwritten.
+INFO (XSTRM-217): Reading the layer map file, /apps/cadence/gpdk/gpdk045_v_5_0/gpdk045/gpdk045.layermap
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 EE224_Project
+strmFile                                /home/013829283/224hw31/EE224_Project/adder1bit/adder1bit.gds
+topCell                                 adder1bit
+view                                    layout
+runDir                                  /home/013829283/224hw31/EE224_Project/adder1bit
+logFile                                 /home/013829283/224hw31/EE224_Project/adder1bit/PIPO1.LOG
+techLib                                 gpdk045
+hierDepth                               32
+maxVertices                             2048
+layerMap                                /apps/cadence/gpdk/gpdk045_v_5_0/gpdk045/gpdk045.layermap
+userSkillFile                           /home/013829283/224hw31/EE224_Project/adder1bit/strmout.il
+labelDepth                              32
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating cellView gpdk045/M1_PO/layout as STRUCTURE M1_PO_CDNS_1.
+INFO (XSTRM-223): 2. Translating cellView gpdk045/M1_PO/layout as STRUCTURE M1_PO_CDNS_2.
+INFO (XSTRM-223): 3. Translating cellView gpdk045/M1_PO/layout as STRUCTURE M1_PO_CDNS_3.
+INFO (XSTRM-223): 4. Translating cellView gpdk045/M1_PO/layout as STRUCTURE M1_PO_CDNS_4.
+INFO (XSTRM-223): 5. Translating cellView gpdk045/M1_PO/layout as STRUCTURE M1_PO_CDNS_5.
+INFO (XSTRM-223): 6. Translating cellView gpdk045/M1_PO/layout as STRUCTURE M1_PO_CDNS_6.
+INFO (XSTRM-223): 7. Translating cellView gpdk045/M1_PO/layout as STRUCTURE M1_PO_CDNS_7.
+INFO (XSTRM-223): 8. Translating cellView gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_8.
+INFO (XSTRM-223): 9. Translating cellView gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_9.
+INFO (XSTRM-223): 10. Translating cellView gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_10.
+INFO (XSTRM-223): 11. Translating cellView gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_11.
+INFO (XSTRM-223): 12. Translating cellView gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_12.
+INFO (XSTRM-223): 13. Translating cellView gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_13.
+INFO (XSTRM-223): 14. Translating cellView gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_14.
+INFO (XSTRM-223): 15. Translating cellView gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_15.
+INFO (XSTRM-223): 16. Translating cellView gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_16.
+INFO (XSTRM-223): 17. Translating cellView gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_17.
+INFO (XSTRM-223): 18. Translating cellView EE224_Project/adder1bit/layout as STRUCTURE adder1bit.
+INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+INFO (XSTRM-317): The 'EE224_Project/adder1bit/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (4065, 9515). This pathSeg will be translated as a boundary record in the GDS file during Stream Out.
+INFO (XSTRM-317): The 'EE224_Project/adder1bit/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (14205, 1635). This pathSeg will be translated as a boundary record in the GDS file during Stream Out.
+
+Summary of Objects Translated:
+	Scalar Instances:                       27
+	Array Instances:                        1
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             264
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           22
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               254
+	Text:                                   31
+	TextDisplay:                            0
+	Cells:                                  18
+
+Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 6484KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

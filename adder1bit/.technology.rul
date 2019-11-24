@@ -1,0 +1,1 @@
+technology "gpdk045_pvs" -ruleSet "default" -techLib "/apps/cadence/gpdk/gpdk045_v_5_0/pvtech.lib";

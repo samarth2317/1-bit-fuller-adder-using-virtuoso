@@ -1,0 +1,9 @@
+CADENCE IHNL11140
+$model
+EE224_Project/adder1bit/schematic adder1bit
+$endmodel
+$net
+gnd! gnd!
+$endnet
+$param
+$endparam

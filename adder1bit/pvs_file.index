@@ -1,0 +1,90 @@
+"Cadence Directory" internal none /home/013829283/224hw31/.cadence/
+"Current Directory" internal none /home/013829283/224hw31
+"GUI Flow" internal none virtuoso6
+"GUI Preset" internal none /home/013829283/224hw31/EE224_Project/adder1bit/.preset.autosave
+"Job Signature" internal none IPVS_1574028622_3880
+"PVS Job Mode" internal none lvs
+"Run Directory" internal none /home/013829283/224hw31/EE224_Project/adder1bit
+"Technology Mapping File" internal none /apps/cadence/gpdk/gpdk045_v_5_0/pvtech.lib
+"Technology Name" internal none "gpdk045_pvs"
+"Technology Rule File" internal none /home/013829283/224hw31/EE224_Project/adder1bit/.technology.rul
+"Technology RuleSet" internal none "default"
+"PVS Version" internal none 16.15-s010
+"Binary Name" internal none pvsgui
+"PVS Build Date" internal none "Fri Jun 28 22:24:07 PDT 2019"
+"PVS Job Time" internal none 1574028622
+"CDL Out Display Pin Information" internal none ENABLED
+"CDL Out Stop List" internal text auCdl
+"CDL Out View List" internal text auCdl schematic
+"Control File" input text /home/013829283/224hw31/EE224_Project/adder1bit/pvslvsctl
+"DFII version" internal none 6.1.7.0
+"Do not check rules files before run" internal none ENABLED
+"Extracted Spice File" output text /home/013829283/224hw31/EE224_Project/adder1bit/adder1bit.spi
+"Input Layout" input none OA: EE224_Project adder1bit layout
+"Input Schematic" input none OA: EE224_Project adder1bit schematic
+"Intermediate GDSII File" output none /home/013829283/224hw31/EE224_Project/adder1bit/adder1bit.gds
+"Intermediate GDSII File creation Errors" output none /home/013829283/224hw31/EE224_Project/adder1bit/PIPO1.LOG
+"Intermediate OASIS File creation Errors" output none /home/013829283/224hw31/EE224_Project/adder1bit/PIPO1.LOG
+"Layout Cell Name" internal none adder1bit
+"Layout ConvertPin" internal text geometry
+"Layout GDSII" input none /home/013829283/224hw31/EE224_Project/adder1bit/adder1bit.gds
+"Layout HierDepth" internal none 32
+"Layout Library Name" internal none EE224_Project
+"Layout MaxVertices" internal none 2048
+"Layout NoConvertHalfWidthPath" input none nil
+"Layout ReplaceBusBitChar" input none nil
+"Layout Scale" internal none 0.0005
+"Layout TechLib" internal none gpdk045
+"Layout Top Cell" internal none adder1bit
+"Layout View Name" internal none layout
+"Output Layout Cellmap I" internal text /home/013829283/224hw31/EE224_Project/adder1bit/lay_cellMap.txt
+"PIPO Log I" log text  /home/013829283/224hw31/EE224_Project/adder1bit/PIPO1.LOG
+"PIPO Output I" internal text  /home/013829283/224hw31/EE224_Project/adder1bit/PIPO1.OUT
+"PIPO Setup File I" internal text  /home/013829283/224hw31/EE224_Project/adder1bit/pipo1.setup
+"PVS Job Log" log text /home/013829283/224hw31/EE224_Project/adder1bit/pvsuilvs.log
+"PVS Job Mode" internal none lvs
+"Rule File" input text /home/013829283/224hw31/EE224_Project/adder1bit/.technology.rul
+"Run Directory" internal none /home/013829283/224hw31/EE224_Project/adder1bit
+"SI Log" log text  /home/013829283/224hw31/EE224_Project/adder1bit/SI.LOG
+"SI OSS Directory" internal none /home/013829283/224hw31/EE224_Project/adder1bit/
+"SI Output" log text  /home/013829283/224hw31/EE224_Project/adder1bit/SI.OUT
+"SI Setup File" internal text  /home/013829283/224hw31/EE224_Project/adder1bit/si.env
+"Schematic Cell Name" internal none adder1bit
+"Schematic Library Name" internal none EE224_Project
+"Schematic Netlist" output text /home/013829283/224hw31/EE224_Project/adder1bit/adder1bit.cdl
+"Schematic Top Cell" internal none adder1bit
+"Schematic View Name" internal none schematic
+"Simulator Mode" internal none auCdl
+"PVS Version" internal none 16.15-s010
+"Binary Name" internal none pvsvirt
+"PVS Build Date" internal none "Fri Jun 28 22:24:07 PDT 2019"
+"PVS Job Time" internal none 1574028645
+"Comparison Report" output cls /home/013829283/224hw31/EE224_Project/adder1bit/adder1bit.rep.cls
+"ERC Result" internal none EMPTY
+"ERC Summary" output text /home/013829283/224hw31/EE224_Project/adder1bit/adder1bit.sum
+"Extracted Spice File" output text /home/013829283/224hw31/EE224_Project/adder1bit/adder1bit.spi
+"Extraction Report" output erc /home/013829283/224hw31/EE224_Project/adder1bit/adder1bit.rep
+"Extraction Result" internal none WARNINGS
+"LVS Report Options" internal none -none
+"Layout GDSII" input none /home/013829283/224hw31/EE224_Project/adder1bit/adder1bit.gds
+"Layout Top Cell" internal none adder1bit
+"PVS Job Mode" internal none lvs
+"Report MaxResults" internal none 1000
+"Rule File" input text /home/013829283/224hw31/EE224_Project/adder1bit/.technology.rul
+"Run Directory" internal none /home/013829283/224hw31/EE224_Project/adder1bit/
+"SCONNECT RDB" output rdb /home/013829283/224hw31/EE224_Project/adder1bit/adder1bit.softchk
+"Schematic Top Cell" internal none adder1bit
+"UI Data" internal none ENABLED
+"PVS Version" internal none 16.15-s010
+"Binary Name" internal none pvs
+"PVS Build Date" internal none "Fri Jun 28 22:24:07 PDT 2019"
+"PVS Job Time" internal none 1574028645
+"Comparison Result" internal none MISMATCH
+"LVS Run Name" internal none adder1bit.rep
+"Run Directory" internal none /home/013829283/224hw31/EE224_Project/adder1bit/
+"Schematic Netlist" input text /home/013829283/224hw31/EE224_Project/adder1bit/netlist
+"UI Data" internal none ENABLED
+"PVS Version" internal none 16.15-s010
+"Binary Name" internal none pvsnvn
+"PVS Build Date" internal none "Fri Jun 28 22:24:07 PDT 2019"
+"PVS Job Time" internal none 1574028647

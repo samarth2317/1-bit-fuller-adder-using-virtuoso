@@ -1,0 +1,16 @@
+
+/apps/cadence/PVS161/tools.lnx86/pvs/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : adder1bit_20940.db
+ECDB dir        : ./
+Top Cell        : adder1bit
+CDL netlist     : svdb/adder1bit.net
+Layer map file  : svdb/adder1bit.ecdbmap
+Text map file   : svdb/adder1bit.ports
+Dependency map  : adder1bit.lmap.perc
+Lvs file        : svdb/adder1bit.lvsfile
+Float net file : .adder1bit.info.softchk
+debug           : 0
+Source Library  : adder1bit_20940
